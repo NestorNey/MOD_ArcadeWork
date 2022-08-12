@@ -1,0 +1,100 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 302,
+    "height": 98,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<ENBT:text:logerror>",
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "name": "<ENBT:text:logerror>",
+          "x": 78,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<ENBT:text:logerror2>",
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "name": "<ENBT:text:logerror2>",
+          "x": 78,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<ENBT:text:logerror3>",
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "name": "<ENBT:text:logerror3>",
+          "x": 78,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<ENBT:text:logerror4>",
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "name": "<ENBT:text:logerror4>",
+          "x": 78,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Error",
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "name": "Error",
+          "x": 199,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "errorlog_base.png",
+          "use1Xscale": false,
+          "name": "errorlog_base.png",
+          "x": 62,
+          "y": 71
+        }
+      }
+    ],
+    "onClosed": {
+      "name": "Vrf"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

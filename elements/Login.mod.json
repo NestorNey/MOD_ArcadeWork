@@ -1,0 +1,180 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 346,
+    "height": 226,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "google_login.png",
+          "use1Xscale": true,
+          "name": "google_login.png",
+          "x": 214,
+          "y": 86
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Iniciar con Google",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Iniciar con Google",
+          "x": 255,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Bienvenido de nuevo",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Bienvenido de nuevo",
+          "x": 163,
+          "y": 18
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Inicia sesión",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Inicia sesión",
+          "x": 179,
+          "y": 31
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "facebook_login.png",
+          "use1Xscale": true,
+          "name": "facebook_login.png",
+          "x": 214,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Iniciar con Facebook",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Iniciar con Facebook",
+          "x": 250,
+          "y": 121
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "midline.png",
+          "use1Xscale": false,
+          "name": "midline.png",
+          "x": 205,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ingresar contraseña",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Ingresar contraseña",
+          "x": 72,
+          "y": 66
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "password",
+          "x": 62,
+          "y": 86
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Iniciar sesión",
+          "onClick": {
+            "name": "AuthLog"
+          },
+          "width": 98,
+          "height": 20,
+          "name": "Iniciar sesión",
+          "x": 73,
+          "y": 160
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "",
+          "name": "remember",
+          "x": 71,
+          "y": 121
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mantener Sesión",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Mantener Sesión",
+          "x": 95,
+          "y": 126
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "coming soon",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "coming soon",
+          "x": 214,
+          "y": 72
+        }
+      }
+    ],
+    "onClosed": {
+      "name": "Vrf"
+    },
+    "gridSettings": {
+      "sx": 19,
+      "sy": 20,
+      "ox": 9,
+      "oy": 10,
+      "snapOnGrid": false
+    }
+  }
+}

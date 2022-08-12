@@ -1,0 +1,254 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 370,
+    "height": 236,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "google_login.png",
+          "use1Xscale": true,
+          "name": "google_login.png",
+          "x": 224,
+          "y": 86
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Registrarte con Google",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Registrarte con Google",
+          "x": 256,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "¡Hola! Aquí puedes registrarte...",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "¡Hola! Aquí puedes registrarte...",
+          "x": 148,
+          "y": 6
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Regístrate usando el método que mejor te convenga",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Regístrate usando el método que mejor te convenga",
+          "x": 85,
+          "y": 18
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "facebook_login.png",
+          "use1Xscale": true,
+          "name": "facebook_login.png",
+          "x": 224,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Registrarte con Facebook",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Registrarte con Facebook",
+          "x": 251,
+          "y": 120
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "midline.png",
+          "use1Xscale": false,
+          "name": "midline.png",
+          "x": 214,
+          "y": 46
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Crea una contraseña",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Crea una contraseña",
+          "x": 72,
+          "y": 46
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "password",
+          "x": 62,
+          "y": 56
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Iniciar sesión",
+          "onClick": {
+            "name": "AuthReg"
+          },
+          "width": 98,
+          "height": 20,
+          "name": "Iniciar sesión",
+          "x": 73,
+          "y": 200
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "",
+          "name": "news",
+          "x": 59,
+          "y": 166
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Recibir promociones",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Recibir promociones",
+          "x": 86,
+          "y": 166
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Confirma tu contraseña",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Confirma tu contraseña",
+          "x": 64,
+          "y": 86
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "confpassword",
+          "x": 62,
+          "y": 96
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ingresar correo",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Ingresar correo",
+          "x": 54,
+          "y": 126
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " (Opcional)",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "name": " (Opcional)",
+          "x": 134,
+          "y": 126
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "mail",
+          "x": 62,
+          "y": 136
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "y noticias",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "y noticias",
+          "x": 107,
+          "y": 176
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "coming soon",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "coming soon",
+          "x": 223,
+          "y": 71
+        }
+      }
+    ],
+    "onClosed": {
+      "name": "Vrf"
+    },
+    "gridSettings": {
+      "sx": 19,
+      "sy": 20,
+      "ox": 9,
+      "oy": 10,
+      "snapOnGrid": false
+    }
+  }
+}
